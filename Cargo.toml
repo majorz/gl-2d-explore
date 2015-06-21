@@ -1,10 +1,9 @@
 [package]
 
 name = "gl-2d-explore"
-version = "0.0.1"
+version = "0.0.2"
 
-[dependencies.glutin]
-git = "https://github.com/tomaka/glutin"
-
-[dependencies.gl]
-git = "https://github.com/bjz/gl-rs"
+[dependencies]
+glutin = "*"
+gl = "*"
+libc = "*"
